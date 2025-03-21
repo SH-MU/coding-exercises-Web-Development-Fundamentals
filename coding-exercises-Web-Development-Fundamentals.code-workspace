@@ -1,0 +1,21 @@
+{
+	"folders": [
+		{
+			"name": "coding-exercises-Web-Development-Fundamentals",
+			"path": "."
+		},
+		{
+			"name": "portofolio",
+			"path": "../portofolio"
+		},
+		{
+			"name": "fun-programming",
+			"path": "../fun-programming"
+		},
+		{
+			"name": "fun-fun",
+			"path": "../fun-fun"
+		}
+	],
+	"settings": {}
+}
