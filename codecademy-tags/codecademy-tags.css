@@ -1,0 +1,11 @@
+body {
+    background-color: #e0f7fa; /* Light blue background color */
+}
+
+.strong-text {
+    margin: 20px; /* Custom margin for the strong-text class */
+}
+
+.green-text {
+    color: green; /* Green text color for elements with this class */
+}

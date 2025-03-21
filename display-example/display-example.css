@@ -1,0 +1,59 @@
+/* Basic styling for all divs */
+div {
+    padding: 10px;
+    border: 1px solid black;
+    margin-bottom: 10px; /* Space between divs */
+    background-color: #f0f0f0; /* Light grey background */
+    text-align: center; /* Center text inside divs */
+}
+
+/* Specific styles for each display type */
+.inline {
+    display: inline;
+    background-color: lightcoral;
+}
+
+.block {
+    display: block;
+    background-color: lightseagreen;
+    width: 200px; /* Example width for block */
+}
+
+.inline-block {
+    display: inline-block;
+    background-color: lightskyblue;
+    width: 100px; /* Example width for inline-block */
+    height: 50px; /* Example height for inline-block */
+}
+
+.flex-container {
+    display: flex;
+    background-color: lightgoldenrodyellow;
+    padding: 15px; /* Padding for the container */
+}
+
+.flex-item {
+    background-color: gold;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto; /* 3 columns */
+    grid-gap: 10px; /* Gap between grid items */
+    background-color: lightgreen;
+    padding: 15px;
+}
+
+.grid-item {
+    background-color: limegreen;
+    padding: 20px;
+    text-align: center;
+}
+
+.none {
+    display: none;
+    background-color: mistyrose; /* Will not be visible */
+}

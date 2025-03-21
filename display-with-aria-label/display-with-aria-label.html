@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display Property Examples with ARIA Labels</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to the CSS file -->
+</head>
+<body>
+
+    <h2>Display Property Examples</h2>
+
+    <h3>display: inline</h3>
+    <div aria-label="Section demonstrating CSS display inline property">
+        <div class="inline">Inline Element 1</div>
+        <div class="inline">Inline Element 2</div>
+        <div class="inline">Inline Element 3</div>
+    </div>
+    <p>Notice how inline elements sit side-by-side horizontally.</p>
+
+    <h3>display: block</h3>
+    <div aria-label="Section demonstrating CSS display block property">
+        <div class="block">Block Element 1</div>
+        <div class="block">Block Element 2</div>
+        <div class="block">Block Element 3</div>
+    </div>
+    <p>Block elements stack vertically, each taking full available width.</p>
+
+    <h3>display: inline-block</h3>
+    <div aria-label="Section demonstrating CSS display inline-block property">
+        <div class="inline-block">Inline-Block 1</div>
+        <div class="inline-block">Inline-Block 2</div>
+        <div class="inline-block">Inline-Block 3</div>
+    </div>
+    <p>Inline-block elements are horizontal like inline, but you can set width/height.</p>
+
+    <h3>display: flex</h3>
+    <div aria-label="Section demonstrating CSS display flex property" class="flex-container">
+        <div class="flex-item">Flex Item 1</div>
+        <div class="flex-item">Flex Item 2</div>
+        <div class="flex-item">Flex Item 3</div>
+    </div>
+    <p>Flexbox provides flexible 1-dimensional layout (in this case, row-based).</p>
+
+    <h3>display: grid</h3>
+    <div aria-label="Section demonstrating CSS display grid property" class="grid-container">
+        <div class="grid-item">Grid Item 1</div>
+        <div class="grid-item">Grid Item 2</div>
+        <div class="grid-item">Grid Item 3</div>
+        <div class="grid-item">Grid Item 4</div>
+        <div class="grid-item">Grid Item 5</div>
+        <div class="grid-item">Grid Item 6</div>
+    </div>
+    <p>Grid provides powerful 2-dimensional layout control in rows and columns.</p>
+
+    <h3>display: none</h3>
+    <div aria-label="Section demonstrating CSS display none property">
+        <div class="none">This element is display: none</div>
+        <div>This element is visible</div>
+    </div>
+    <p>Element with display: none is completely removed and not rendered.</p>
+
+</body>
+</html>

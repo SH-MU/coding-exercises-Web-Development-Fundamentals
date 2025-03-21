@@ -1,0 +1,9 @@
+.highlight {
+    color: red;
+    font-weight: bold;
+}
+
+#special-text {
+    font-style: italic;
+    background-color: yellow;
+}

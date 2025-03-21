@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Span Example</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to the CSS file -->
+</head>
+<body>
+    <div id="media">
+        <h2>Media</h2>
+        <!-- In HTML5, the trailing slash in self-closing tags is optional and does not affect rendering. -->
+        <img 
+        src="https://content.codecademy.com/courses/web-101/web101-image_brownbear.jpg"
+        alt="A brown bear"> 
+    </div>
+
+    <p>This is a regular <strong>paragraph</strong>. But we can make <span class="highlight">some text stand out</span> using a span with a class.</p>
+
+    <p>Here's another paragraph with <span id="special-text">different styling</span> applied using an ID.</p>
+
+    <p>And here's a sentence with <span class="highlight">multiple</span> <span id="special-text">spans</span> used together.</p>
+
+    <p>This is a long paragraph that <span style="color:blue; text-decoration:underline;">demonstrates</span> how a span can be used for inline styling without creating a line break.</p>
+
+    <button onclick="changeText()">Change Text</button>
+
+    <script src="script.js"></script> <!-- Link to the JavaScript file -->
+</body>
+</html>
