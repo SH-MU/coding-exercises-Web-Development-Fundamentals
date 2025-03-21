@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # HTML and CSS Practice Project
 
 This project demonstrates various HTML and CSS techniques, including the use of background colors, text styling, and layout elements. The document is structured to showcase different HTML elements and their styling using embedded CSS.
@@ -18,3 +19,6 @@ This project demonstrates various HTML and CSS techniques, including the use of 
 1. Clone the repository:
    ```sh
    git clone https://github.com/your-username/html-css-practice.git
+=======
+# coding-exercises-Web-Development-Fundamentals
+>>>>>>> 2ec50c9363513c6efd92411c04a9e8a188216190
